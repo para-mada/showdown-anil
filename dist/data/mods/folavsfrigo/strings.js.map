@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../data/mods/folavsfrigo/strings.ts"],
+  "sourcesContent": ["// Traducciones de mensajes de batalla para el mod 'dedsafio'\nexport const BattleText: {[k: string]: string} = {\n  move: `\u00A1{USER} us\u00F3 {MOVE}!`,\n  damage: `({TARGET} perdi\u00F3 el {PERCENT}% de su salud!)`,\n  hitcount: `\u00A1El Pok\u00E9mon fue golpeado {NUM} veces!`,\n  switch: `\u00A1{PLAYER} envi\u00F3 a {POKEMON}!`,\n  faint: `\u00A1{POKEMON} se ha debilitado!`,\n  crit: `\u00A1Es un golpe cr\u00EDtico!`,\n  supereffective: `\u00A1Es muy eficaz!`,\n  resisted: `\u00A1No es muy eficaz!`,\n  miss: `\u00A1{USER} fall\u00F3 el ataque!`,\n  status: `{POKEMON} ahora tiene el estado {STATUS}.`,\n  boost: `{POKEMON} aument\u00F3 su {STAT}.`,\n  unboost: `{POKEMON} redujo su {STAT}.`,\n  start: `\u00A1El combate comenz\u00F3 entre {P1} y {P2}!`,\n  cant: `{POKEMON} no pudo moverse debido a {REASON}.`,\n  prepare: `{USER} se est\u00E1 preparando para usar {MOVE}...`,\n  end: `\u00A1{POKEMON} fue retirado!`,\n  immune: `\u00A1{POKEMON} es inmune!`,\n  fail: `\u00A1El movimiento fall\u00F3!`,\n  item: `{POKEMON} us\u00F3 su objeto: {ITEM}.`,\n};"],
+  "mappings": ";;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AACO,MAAM,aAAoC;AAAA,EAC/C,MAAM;AAAA,EACN,QAAQ;AAAA,EACR,UAAU;AAAA,EACV,QAAQ;AAAA,EACR,OAAO;AAAA,EACP,MAAM;AAAA,EACN,gBAAgB;AAAA,EAChB,UAAU;AAAA,EACV,MAAM;AAAA,EACN,QAAQ;AAAA,EACR,OAAO;AAAA,EACP,SAAS;AAAA,EACT,OAAO;AAAA,EACP,MAAM;AAAA,EACN,SAAS;AAAA,EACT,KAAK;AAAA,EACL,QAAQ;AAAA,EACR,MAAM;AAAA,EACN,MAAM;AACR;",
+  "names": []
+}

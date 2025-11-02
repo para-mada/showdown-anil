@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../config/custom-formats.ts"],
+  "sourcesContent": ["// Note: This is the list of formats\r\n// The rules that formats use are stored in data/rulesets.ts\r\n\r\nexport const Formats: FormatList = [\r\n\r\n];"],
+  "mappings": ";;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAGO,MAAM,UAAsB,CAEnC;",
+  "names": []
+}
