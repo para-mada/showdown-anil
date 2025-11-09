@@ -1,4 +1,16 @@
 export const Abilities: import('../../../sim/dex-abilities').ModdedAbilityDataTable = {
+	iceberg: {
+		onDamage(damage, target, source, effect) {
+			if (effect.id === 'recoil') {
+				if (!this.activeMove) throw new Error("Battle.activeMove is null");
+				if (this.activeMove.id !== 'struggle') return null;
+			}
+		},
+		flags: {},
+		name: "Iceberg",
+		rating: 3,
+		num: 69,
+	},
 	realeza: {
 		onModifySTAB(stab, source, target, move) 
 		    {

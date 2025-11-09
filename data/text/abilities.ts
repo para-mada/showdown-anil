@@ -3,6 +3,10 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 		name: "No Ability",
 		shortDesc: "Does nothing.",
 	},
+	iceberg: {
+		name: "Iceberg",
+		shortDesc: "No recibe daño de retroceso.",
+	},
 	acometida: {
 		name: "Acometida",
 		shortDesc: "Aumenta el Ataque y Velocidad solo durante el primer turno.",

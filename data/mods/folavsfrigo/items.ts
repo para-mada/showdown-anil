@@ -1,5 +1,19 @@
 export const Items: import('../sim/dex-items').ItemDataTable = {
 	// Pruebas
+	flappletunita: {
+		name: "Flappletunita",
+		spritenum: 583,
+		megaStone: "Flapple-Gmax",
+		megaEvolves: "Flapple",
+		itemUser: ["Flapple"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 661,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 	orbeetlenita: {
 		name: "Orbeetlenita",
 		spritenum: 583,

@@ -1,42 +1,76 @@
 export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
-	// Inicio de modificados
-	orbeetlegmax: {
-		num: 826,
-		name: "Orbeetle-Gmax",
-		baseSpecies: "Orbeetle",
-		forme: "Gmax",
-		 isMega: true,                  // ← importante
-		battleOnly: "Orbeetle",        // ← importante (solo existe en batalla tras mega)
-		changesFrom: "Orbeetle",       // ← opcional pero útil para UI
-		types: ["Bug", "Psychic"],
-		baseStats: { hp: 60, atk: 65, def: 130, spa: 110, spd: 140, spe: 100 },
-		abilities: { 0: "Speed Boost", 1: "Speed Boost", H: "Speed Boost" },
-		heightm: 14,
-		weightkg: 0,
-		color: "Red",
-		eggGroups: ["Bug"],
-		requiredItem: "Orbeetlenita",
+// Segundo combate
+	// Frigo
+		lapras: {
+			inherit: true,
+			baseStats: {hp: 130, atk: 75, def: 80, spa: 95, spd: 95, spe: 60},
+		},
+		slitherwing: {
+			num: 988,
+			name: "Slither Wing",
+			types: ["Bug", "Dragon"],
+			gender: "N",
+			baseStats: { hp: 85, atk: 135, def: 105, spa: 60, spd: 65, spe: 100 },
+			abilities: { 0: "Protosynthesis" },
+			heightm: 3.2,
+			weightkg: 92,
+			color: "White",
+			tags: ["Paradox"],
+			eggGroups: ["Undiscovered"],
+		},
+		flapplegmax: {
+			num: 841,
+			name: "Flapple-Gmax",
+			baseSpecies: "Flapple",
+			forme: "Gmax",
+			types: ["Grass", "Dragon"],
+			baseStats: { hp: 110, atk: 125, def: 100, spa: 100, spd: 100, spe: 50 },
+			abilities: { 0: "Parental Bond" },
+			heightm: 24,
+			weightkg: 0,
+			color: "Green",
+			eggGroups: ["Grass", "Dragon"],
+			changesFrom: "Flapple",
+		},
+		orbeetlegmax: {
+			num: 826,
+			name: "Orbeetle-Gmax",
+			baseSpecies: "Orbeetle",
+			forme: "Gmax",
+			 isMega: true,                  // ← importante
+			battleOnly: "Orbeetle",        // ← importante (solo existe en batalla tras mega)
+			changesFrom: "Orbeetle",       // ← opcional pero útil para UI
+			types: ["Bug", "Psychic"],
+			baseStats: { hp: 60, atk: 65, def: 130, spa: 110, spd: 140, spe: 100 },
+			abilities: { 0: "Speed Boost", 1: "Speed Boost", H: "Speed Boost" },
+			heightm: 14,
+			weightkg: 0,
+			color: "Red",
+			eggGroups: ["Bug"],
+			requiredItem: "Orbeetlenita",
 	},
-	gallademega: {
-		num: 475,
-		name: "Gallade-Mega",
-		baseSpecies: "Gallade",
-		forme: "Mega",
-		types: ["Psychic", "Fighting"],
-		gender: "M",
-		baseStats: { hp: 68, atk: 165, def: 95, spa: 65, spd: 115, spe: 110 },
-		abilities: { 0: "Acometida" },
-		heightm: 1.6,
-		weightkg: 56.4,
-		color: "White",
-		eggGroups: ["Amorphous"],
-		requiredItem: "Galladite",
-	},
+	// Fola
+		gallademega: {
+			num: 475,
+			name: "Gallade-Mega",
+			baseSpecies: "Gallade",
+			forme: "Mega",
+			types: ["Psychic", "Fighting"],
+			gender: "M",
+			baseStats: { hp: 68, atk: 165, def: 95, spa: 65, spd: 115, spe: 110 },
+			abilities: { 0: "Acometida" },
+			heightm: 1.6,
+			weightkg: 56.4,
+			color: "White",
+			eggGroups: ["Amorphous"],
+			requiredItem: "Galladite",
+		},
+		trevenant: {
+			inherit: true,
+			baseStats: {hp: 85, atk: 110, def: 86, spa: 65, spd: 82, spe: 56},
+		},
+// Primer Combate
 	// Pokes de Fola
-	annihilape: {
-		inherit: true,
-		baseStats: {hp: 110, atk: 115, def: 80, spa: 50, spd: 90, spe: 90},
-    },
 	drizzile: {
 		inherit: true,
 		types: ["Water", "Dark"],
@@ -122,10 +156,6 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		inherit: true,
 		baseStats: {hp: 86, atk: 100, def: 88, spa: 68, spd: 85, spe: 73},
     },
-	orbeetle: {
-		inherit: true,
-		baseStats: {hp: 60, atk: 45, def: 110, spa: 80, spd: 120, spe: 90},
-    },
 	klinklang: {
 		inherit: true,
 		baseStats: {hp: 60, atk: 100, def: 115, spa: 70, spd: 85, spe: 90},
@@ -133,10 +163,6 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	noivern: {
 		inherit: true,
 		baseStats: {hp: 85, atk: 70, def: 80, spa: 97, spd: 80, spe: 123},
-    },
-	kingambit: {
-		inherit: true,
-		baseStats: {hp: 100, atk: 135, def: 120, spa: 60, spd: 85, spe: 50},
     },
 	lokix: {
 		inherit: true,
