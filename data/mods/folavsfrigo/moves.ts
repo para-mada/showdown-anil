@@ -1,6 +1,20 @@
 // List of flags and their descriptions can be found in sim/dex-moves.ts
 
 export const Moves: import('../sim/dex-moves').MoveDataTable = {
+	shadowpunch: {
+		num: 325,
+		accuracy: true,
+		basePower: 80,
+		category: "Physical",
+		name: "Shadow Punch",
+		pp: 20,
+		priority: 0,
+		flags: { contact: 1, protect: 1, mirror: 1, punch: 1, metronome: 1 },
+		secondary: null,
+		target: "normal",
+		type: "Ghost",
+		contestType: "Clever",
+	},
 	amorpostumo: {
 		num: 950,
 		accuracy: 100,
