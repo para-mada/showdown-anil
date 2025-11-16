@@ -1,4 +1,25 @@
 export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
+// Tercer combate
+	flapple: {
+		inherit: true,
+		baseStats: {hp: 110, atk:109, def: 105, spa: 75, spd: 85, spe: 56},
+    },
+	slowbrogalar: {
+		num: 80,
+		name: "Slowbro-Galar",
+		baseSpecies: "Slowbro",
+		forme: "Galar",
+		types: ["Poison", "Psychic"],
+		baseStats: { hp: 95, atk: 65, def: 80, spa: 110, spd: 110, spe: 30 },
+		abilities: { 0: "Quick Draw", 1: "Own Tempo", H: "Regenerator" },
+		heightm: 1.6,
+		weightkg: 70.5,
+		color: "Pink",
+		prevo: "Slowpoke-Galar",
+		evoType: "useItem",
+		evoItem: "Galarica Cuff",
+		eggGroups: ["Monster", "Water 1"],
+	},
 // Segundo combate
 	// Frigo
 		lapras: {
@@ -25,7 +46,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 			forme: "Gmax",
 			types: ["Grass", "Dragon"],
 			baseStats: { hp: 110, atk: 125, def: 100, spa: 100, spd: 100, spe: 50 },
-			abilities: { 0: "Parental Bond" },
+			abilities: { 0: "Parental Bond", 1: "Parental Bond", H: "Parental Bond" },
 			heightm: 24,
 			weightkg: 0,
 			color: "Green",

@@ -17,7 +17,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 	  'timergrace = 5',              // Segundos que tarda en iniciar el Timer después de presionar el botón
 	  
 	  // Reglas del Formato
-	  'adjustlevel = 59',            // Nivel que tendrán todos los pokémon del campo
+	  'adjustlevel = 75',            // Nivel que tendrán todos los pokémon del campo
 	  'speciesclause',               // Sólo 1 especia de pokémon por equipo
 	  'nicknameclause',              // Los pokémon no pueden repetir MOTE
 	  'sleepclausemod',              // Sólo 1 pokémon dormido a la vez
