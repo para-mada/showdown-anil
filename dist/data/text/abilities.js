@@ -26,22 +26,6 @@ const AbilitiesText = {
     name: "No Ability",
     shortDesc: "Does nothing."
   },
-  acometida: {
-    name: "Acometida",
-    shortDesc: "Aumenta el Ataque y Velocidad solo durante el primer turno."
-  },
-  sobrecarga: {
-    name: "Sobrecarga",
-    shortDesc: "Sube el poder El\xE9ctrico si tiene pocos PS."
-  },
-  pielherbacea: {
-    name: "Piel Herbacea",
-    shortDesc: "Convierte los movimientos de tipo Normal en Planta y los potencia."
-  },
-  realeza: {
-    name: "Realeza",
-    shortDesc: "Recibe bonus de da\xF1o del 50% atacando con todos los tipos."
-  },
   adaptability: {
     name: "Adaptability",
     desc: "This Pokemon's moves that match one of its types have a same-type attack bonus (STAB) of 2 instead of 1.5.",

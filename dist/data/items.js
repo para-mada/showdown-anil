@@ -22,45 +22,6 @@ __export(items_exports, {
 });
 module.exports = __toCommonJS(items_exports);
 const Items = {
-  supereviolite: {
-    name: "SuperEviolite",
-    spritenum: 130,
-    fling: {
-      basePower: 40
-    },
-    onModifyDefPriority: 2,
-    onModifyDef(def, pokemon) {
-      if (pokemon.baseSpecies.nfe) {
-        return this.chainModify(1.5);
-      }
-    },
-    onModifySpDPriority: 2,
-    onModifySpD(spd, pokemon) {
-      if (pokemon.baseSpecies.nfe) {
-        return this.chainModify(1.5);
-      }
-    },
-    onModifyAtkPriority: 2,
-    onModifyAtk(atk, pokemon) {
-      if (pokemon.baseSpecies.nfe) {
-        return this.chainModify(1.5);
-      }
-    },
-    onModifySpAPriority: 2,
-    onModifySpA(spa, pokemon) {
-      if (pokemon.baseSpecies.nfe) {
-        return this.chainModify(1.5);
-      }
-    },
-    onModifySpePriority: 2,
-    onModifySpe(spe, pokemon) {
-      if (pokemon.baseSpecies.nfe) {
-        return this.chainModify(1.5);
-      }
-    },
-    num: 538,
-    gen: 5
-  },
   abilityshield: {
     name: "Ability Shield",
     spritenum: 746,

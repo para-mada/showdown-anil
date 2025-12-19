@@ -1,26 +1,4 @@
 export const MovesText: { [id: IDEntry]: MoveText } = {
-	//
-	"tripleaxelanil": {
-		name: "Triple Axel Anil",
-		desc: "Ataca con un movimiento de patinaje sobre hielo que golpea 3 veces cada vez con mayor fuerza.",
-		shortDesc: "Golpea 3 veces, cada golpe es más fuerte.",
-	},
-	"amorpostumo": {
-		name: "Amor Postumo",
-		desc: "Cuanto mayor sea la amistad con el Entrenador, más pega.",
-		shortDesc: "Cuanto mayor sea la amistad con el Entrenador, más pega.",
-	},
-	"deslizamiento": {
-		name: "Deslizamiento",
-		desc: "Se desliza con un esquí y aumenta la Velocidad del atacante.",
-		shortDesc: "Se desliza con un esquí y aumenta la Velocidad del atacante.",
-	},
-	"escalofrio": {
-		name: "Escalofrio",
-		desc: "Provoca un terrible escalofrío en el objetivo y lo congela.",
-		shortDesc: "Provoca un terrible escalofrío en el objetivo y lo congela.",
-	},
-	//
 	"10000000voltthunderbolt": {
 		name: "10,000,000 Volt Thunderbolt",
 		desc: "Has a very high chance for a critical hit.",

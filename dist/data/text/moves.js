@@ -22,28 +22,6 @@ __export(moves_exports, {
 });
 module.exports = __toCommonJS(moves_exports);
 const MovesText = {
-  //
-  "tripleaxelanil": {
-    name: "Triple Axel Anil",
-    desc: "Ataca con un movimiento de patinaje sobre hielo que golpea 3 veces cada vez con mayor fuerza.",
-    shortDesc: "Golpea 3 veces, cada golpe es m\xE1s fuerte."
-  },
-  "amorpostumo": {
-    name: "Amor Postumo",
-    desc: "Cuanto mayor sea la amistad con el Entrenador, m\xE1s pega.",
-    shortDesc: "Cuanto mayor sea la amistad con el Entrenador, m\xE1s pega."
-  },
-  "deslizamiento": {
-    name: "Deslizamiento",
-    desc: "Se desliza con un esqu\xED y aumenta la Velocidad del atacante.",
-    shortDesc: "Se desliza con un esqu\xED y aumenta la Velocidad del atacante."
-  },
-  "escalofrio": {
-    name: "Escalofrio",
-    desc: "Provoca un terrible escalofr\xEDo en el objetivo y lo congela.",
-    shortDesc: "Provoca un terrible escalofr\xEDo en el objetivo y lo congela."
-  },
-  //
   "10000000voltthunderbolt": {
     name: "10,000,000 Volt Thunderbolt",
     desc: "Has a very high chance for a critical hit.",

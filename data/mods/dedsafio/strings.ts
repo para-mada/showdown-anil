@@ -1,0 +1,22 @@
+// Traducciones de mensajes de batalla para el mod 'dedsafio'
+export const BattleText: {[k: string]: string} = {
+  move: `¡{USER} usó {MOVE}!`,
+  damage: `({TARGET} perdió el {PERCENT}% de su salud!)`,
+  hitcount: `¡El Pokémon fue golpeado {NUM} veces!`,
+  switch: `¡{PLAYER} envió a {POKEMON}!`,
+  faint: `¡{POKEMON} se ha debilitado!`,
+  crit: `¡Es un golpe crítico!`,
+  supereffective: `¡Es muy eficaz!`,
+  resisted: `¡No es muy eficaz!`,
+  miss: `¡{USER} falló el ataque!`,
+  status: `{POKEMON} ahora tiene el estado {STATUS}.`,
+  boost: `{POKEMON} aumentó su {STAT}.`,
+  unboost: `{POKEMON} redujo su {STAT}.`,
+  start: `¡El combate comenzó entre {P1} y {P2}!`,
+  cant: `{POKEMON} no pudo moverse debido a {REASON}.`,
+  prepare: `{USER} se está preparando para usar {MOVE}...`,
+  end: `¡{POKEMON} fue retirado!`,
+  immune: `¡{POKEMON} es inmune!`,
+  fail: `¡El movimiento falló!`,
+  item: `{POKEMON} usó su objeto: {ITEM}.`,
+};

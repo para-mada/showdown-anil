@@ -2563,10 +2563,17 @@ export class Battle {
 			if (this.gen > 5) action.move.priority = priority;
 		}
 
+		// --- SNAPSHOT DE SPEED (modo Gen1–7) ---
+		const oldSpeedOrder = !!(this.format as any)?.battle?.oldSpeedOrder;
+
+		// Si tu formato pide orden antiguo y la acción ya tiene speed calculada,
+		// NO la vuelvas a calcular en este turno (evita que Tailwind/Mega reordenen).
+		if (oldSpeedOrder && typeof action.speed === 'number') return;
+
 		if (!action.pokemon) {
-			action.speed = 1;
+		  action.speed = 1;
 		} else {
-			action.speed = action.pokemon.getActionSpeed();
+		  action.speed = action.pokemon.getActionSpeed();
 		}
 	}
 

@@ -2218,6 +2218,9 @@ class Battle {
       if (this.gen > 5)
         action.move.priority = priority;
     }
+    const oldSpeedOrder = !!this.format?.battle?.oldSpeedOrder;
+    if (oldSpeedOrder && typeof action.speed === "number")
+      return;
     if (!action.pokemon) {
       action.speed = 1;
     } else {
