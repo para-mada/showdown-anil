@@ -879,7 +879,6 @@ export const Aliases: import('../sim/dex').AliasesTable = {
   espacioraro: "Trick Room",
   halloween: "Trick-or-Treat",
   tripleflecha: "Triple Arrows",
-  tripleaxel: "Triple Axel",
   tripleinmersin: "Triple Dive",
   triplepatada: "Triple Kick",
   patadatropical: "Trop Kick",
